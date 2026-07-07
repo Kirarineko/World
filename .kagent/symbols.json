@@ -17,6 +17,55 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "c7f0f8b3"
+    },
+    "Universe/Local/city/Hoshizukibay/character/浅紫/Image_1783434531774_430..png": {
+      "ipo_ts": 1783434707781,
+      "edit_count": 2,
+      "last_lines": 14816,
+      "last_ts": 1783434709980,
+      "delisted": true,
+      "last_source": "onEdit",
+      "last_content_hash": "f2d5f4e0",
+      "delisted_at": 1783434764481,
+      "delist_rounds": 0
+    },
+    "Universe/Local/city/Hoshizukibay/character/浅紫/外观.md": {
+      "ipo_ts": 1783434709617,
+      "edit_count": 5,
+      "last_lines": 45,
+      "last_ts": 1783434775292,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "79f12b48"
+    },
+    "Universe/Local/city/Hoshizukibay/character/浅紫/Image_1783434531774_430.-1.png": {
+      "ipo_ts": 1783434746864,
+      "edit_count": 2,
+      "last_lines": 14816,
+      "last_ts": 1783434749028,
+      "delisted": true,
+      "last_source": "onEdit",
+      "last_content_hash": "f2d5f4e0",
+      "delisted_at": 1783434766652,
+      "delist_rounds": 0
+    },
+    "Universe/Local/city/Hoshizukibay/character/浅紫/浅紫立绘.png": {
+      "ipo_ts": 1783434818466,
+      "edit_count": 2,
+      "last_lines": 14816,
+      "last_ts": 1783434820614,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "f2d5f4e0"
+    },
+    "Universe/Local/city/Hoshizukibay/character/浅紫/.~lock.外观.md#": {
+      "ipo_ts": 1783434837022,
+      "edit_count": 1,
+      "last_lines": 1,
+      "last_ts": 1783434837022,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "a590b4f0"
     }
   }
 }
