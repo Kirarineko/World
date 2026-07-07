@@ -35,17 +35,6 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "f2d5f4e0"
-    },
-    "Universe/Local/city/Hoshizukibay/character/浅紫.zip": {
-      "ipo_ts": 1783434956873,
-      "edit_count": 1,
-      "last_lines": 14841,
-      "last_ts": 1783434956873,
-      "delisted": true,
-      "last_source": "onEdit",
-      "last_content_hash": "40910a88",
-      "delisted_at": 1783435376995,
-      "delist_rounds": 0
     }
   }
 }
