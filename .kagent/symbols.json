@@ -5,36 +5,53 @@
       "edit_count": 1,
       "last_lines": 26,
       "last_ts": 1783416209900,
-      "delisted": false,
+      "delisted": true,
       "last_source": "onEdit",
-      "last_content_hash": "d9132609"
+      "last_content_hash": "d9132609",
+      "delisted_at": 1783529921129,
+      "delist_rounds": 0
     },
     "Universe/Local/city/Hoshizukibay/character/浅紫/能力与习惯.md": {
       "ipo_ts": 1783421206018,
       "edit_count": 2,
       "last_lines": 98,
       "last_ts": 1783434417687,
-      "delisted": false,
+      "delisted": true,
       "last_source": "onEdit",
-      "last_content_hash": "c7f0f8b3"
+      "last_content_hash": "c7f0f8b3",
+      "delisted_at": 1783529921129,
+      "delist_rounds": 0
     },
     "Universe/Local/city/Hoshizukibay/character/浅紫/外观.md": {
       "ipo_ts": 1783434709617,
       "edit_count": 7,
       "last_lines": 49,
       "last_ts": 1783435365093,
-      "delisted": false,
+      "delisted": true,
       "last_source": "onEdit",
-      "last_content_hash": "c6a2720d"
+      "last_content_hash": "c6a2720d",
+      "delisted_at": 1783529921129,
+      "delist_rounds": 0
     },
     "Universe/Local/city/Hoshizukibay/character/浅紫/浅紫立绘.png": {
       "ipo_ts": 1783434818466,
       "edit_count": 2,
       "last_lines": 14816,
       "last_ts": 1783434820614,
+      "delisted": true,
+      "last_source": "onEdit",
+      "last_content_hash": "f2d5f4e0",
+      "delisted_at": 1783529921129,
+      "delist_rounds": 0
+    },
+    "上下文索引.md": {
+      "ipo_ts": 1783510523479,
+      "edit_count": 128,
+      "last_lines": 58,
+      "last_ts": 1783512205164,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "f2d5f4e0"
+      "last_content_hash": "3bff9a62"
     }
   }
 }
