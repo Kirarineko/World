@@ -136,6 +136,32 @@ Universe/Local/
 
 - 文件末尾无需速查块，删掉
 
+## 图片转述工具
+
+- 项目中的角色立绘、场景图等图片，可用小米 Mimo-v2.5 多模态接口转述为文字描述
+- 接口：`https://api.xiaomimimo.com/v1/chat/completions`，模型 `mimo-v2.5`
+- API 密钥通过环境变量 `MIMO_API_KEY` 读取，不可硬编码
+
+### 调用示例
+
+```powershell
+# 请求体写入临时文件（base64 较大，避免命令行长度限制）
+$imgBytes = [System.IO.File]::ReadAllBytes("图片路径.png")
+$b64 = [Convert]::ToBase64String($imgBytes)
+$json = '{"model":"mimo-v2.5","messages":[{"role":"user","content":[{"type":"image_url","image_url":{"url":"data:image/png;base64,' + $b64 + '"}},{"type":"text","text":"描述这张图片"}]}],"max_completion_tokens":1024,"temperature":0.8,"top_p":0.95,"stream":false,"frequency_penalty":0,"presence_penalty":0}'
+$utf8 = New-Object System.Text.UTF8Encoding $false
+[System.IO.File]::WriteAllText("$env:TEMP\req.json", $json, $utf8)
+
+# 调用并保存结果（-o 直接写文件，避免 PowerShell 管道破坏 UTF-8 编码）
+curl.exe --location --request POST 'https://api.xiaomimimo.com/v1/chat/completions' `
+  --header "api-key: $env:MIMO_API_KEY" `
+  --header "Content-Type: application/json; charset=utf-8" `
+  --data-binary "@$env:TEMP\req.json" `
+  -o "$env:TEMP\resp.json" 2>$null
+```
+
+> 注意：必须用 `curl.exe -o` 直接写文件，不要通过 PowerShell 管道捕获输出，否则中文会乱码。
+
 ## 已建城市速查
 
 | 城市 | 目录 | 定位 |
