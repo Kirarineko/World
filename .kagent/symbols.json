@@ -11,12 +11,12 @@
     },
     "镜像机制.md": {
       "ipo_ts": 1783775593728,
-      "edit_count": 17,
-      "last_lines": 129,
-      "last_ts": 1784189837911,
+      "edit_count": 126,
+      "last_lines": 108,
+      "last_ts": 1784261006272,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "7ec15e79"
+      "last_content_hash": "703cd2d3"
     },
     "Universe/Local/镜像架构.md": {
       "ipo_ts": 1783776262317,
@@ -38,12 +38,12 @@
     },
     "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/星月湾.md": {
       "ipo_ts": 1783776501749,
-      "edit_count": 12,
-      "last_lines": 280,
-      "last_ts": 1783776575923,
+      "edit_count": 108,
+      "last_lines": 175,
+      "last_ts": 1784294167236,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "64feda16"
+      "last_content_hash": "a56e7d7e"
     },
     "Universe/Local/city/海渊城-Kaienjo/海渊城.md": {
       "ipo_ts": 1784131375824,
@@ -83,30 +83,30 @@
     },
     "Universe/Local/law/宪法纲要.md": {
       "ipo_ts": 1784134734189,
-      "edit_count": 6,
+      "edit_count": 8,
       "last_lines": 117,
-      "last_ts": 1784146428950,
+      "last_ts": 1784277937303,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "4177b560"
+      "last_content_hash": "e6b43225"
     },
     "能力体系.md": {
       "ipo_ts": 1784134748013,
-      "edit_count": 5,
-      "last_lines": 171,
-      "last_ts": 1784189855184,
+      "edit_count": 58,
+      "last_lines": 84,
+      "last_ts": 1784262326681,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "ebd131a6"
+      "last_content_hash": "81264a28"
     },
     "Universe/Local/武力体系.md": {
       "ipo_ts": 1784134766622,
-      "edit_count": 2,
-      "last_lines": 273,
-      "last_ts": 1784135188571,
+      "edit_count": 123,
+      "last_lines": 123,
+      "last_ts": 1784276976103,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "d3724023"
+      "last_content_hash": "4ec79736"
     },
     "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/builds/星月湾人民医院/跨越者门诊.md": {
       "ipo_ts": 1784134817633,
@@ -155,12 +155,12 @@
     },
     "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/builds/研究园区/Results/星澜大模型.md": {
       "ipo_ts": 1784139189200,
-      "edit_count": 54,
-      "last_lines": 270,
-      "last_ts": 1784186063184,
+      "edit_count": 68,
+      "last_lines": 272,
+      "last_ts": 1784219555395,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "bb78ee36"
+      "last_content_hash": "3d08e99b"
     },
     "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/builds/研究园区/Results/152a7467d2ed6ca999c31b3dc188ce96.jpg": {
       "ipo_ts": 1784139695586,
@@ -182,21 +182,21 @@
     },
     "核心设定.md": {
       "ipo_ts": 1784141033930,
-      "edit_count": 2,
-      "last_lines": 142,
-      "last_ts": 1784189820721,
+      "edit_count": 73,
+      "last_lines": 69,
+      "last_ts": 1784261743747,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "f122ece4"
+      "last_content_hash": "eab928b0"
     },
     "神明.md": {
       "ipo_ts": 1784141033938,
-      "edit_count": 5,
-      "last_lines": 132,
-      "last_ts": 1784191024794,
+      "edit_count": 73,
+      "last_lines": 105,
+      "last_ts": 1784263218826,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "f415b44b"
+      "last_content_hash": "c3a353f9"
     },
     "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/law/执法实践.md": {
       "ipo_ts": 1784141229720,
@@ -272,30 +272,39 @@
     },
     "亚空间志.md": {
       "ipo_ts": 1784191041288,
-      "edit_count": 2,
-      "last_lines": 392,
-      "last_ts": 1784191063203,
+      "edit_count": 32,
+      "last_lines": 263,
+      "last_ts": 1784264316859,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "b1cd8f69"
+      "last_content_hash": "f0b9847a"
     },
     "维度界面.md": {
       "ipo_ts": 1784191077542,
-      "edit_count": 2,
-      "last_lines": 57,
-      "last_ts": 1784191100976,
+      "edit_count": 24,
+      "last_lines": 48,
+      "last_ts": 1784263684957,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "646a7026"
+      "last_content_hash": "40908b88"
     },
     "Universe/Local/基础设定.md": {
       "ipo_ts": 1784197165758,
-      "edit_count": 2,
-      "last_lines": 97,
-      "last_ts": 1784197171094,
+      "edit_count": 95,
+      "last_lines": 68,
+      "last_ts": 1784278343181,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "a62162d1"
+      "last_content_hash": "1f359019"
+    },
+    "Universe/Local/2026-07-10_23.27.11_x-12800_z-34816psd.png": {
+      "ipo_ts": 1784278660616,
+      "edit_count": 2,
+      "last_lines": 8391,
+      "last_ts": 1784278680980,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "80502bb0"
     }
   }
 }
