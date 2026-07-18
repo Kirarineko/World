@@ -173,12 +173,12 @@
     },
     "AGENTS.md": {
       "ipo_ts": 1784141033904,
-      "edit_count": 4,
+      "edit_count": 8,
       "last_lines": 174,
-      "last_ts": 1784141120931,
+      "last_ts": 1784392452554,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "d41d6c00"
+      "last_content_hash": "ba2c2da8"
     },
     "核心设定.md": {
       "ipo_ts": 1784141033930,
@@ -218,21 +218,21 @@
     },
     "Universe/Local/History/世界史年表.md": {
       "ipo_ts": 1784189874947,
-      "edit_count": 1,
+      "edit_count": 3,
       "last_lines": 35,
-      "last_ts": 1784189874947,
+      "last_ts": 1784393431136,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "cd996c2a"
+      "last_content_hash": "c8b672b8"
     },
     "Universe/Local/History/08_沉渊战争.md": {
       "ipo_ts": 1784189896403,
-      "edit_count": 1,
+      "edit_count": 24,
       "last_lines": 92,
-      "last_ts": 1784189896403,
+      "last_ts": 1784393416575,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "6ec9063b"
+      "last_content_hash": "eac633e"
     },
     "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/能力/总览.md": {
       "ipo_ts": 1784189938667,
@@ -290,12 +290,12 @@
     },
     "Universe/Local/基础设定.md": {
       "ipo_ts": 1784197165758,
-      "edit_count": 95,
+      "edit_count": 96,
       "last_lines": 68,
-      "last_ts": 1784278343181,
+      "last_ts": 1784392242915,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "1f359019"
+      "last_content_hash": "d2d4809b"
     },
     "Universe/Local/2026-07-10_23.27.11_x-12800_z-34816psd.png": {
       "ipo_ts": 1784278660616,
@@ -305,6 +305,60 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "80502bb0"
+    },
+    "Universe/Local/Biology/Neurosocius/飑髓.md": {
+      "ipo_ts": 1784383944962,
+      "edit_count": 25,
+      "last_lines": 90,
+      "last_ts": 1784384839956,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "7747a6ed"
+    },
+    "Universe/Local/Biology/Neurosocius/潮髓.md": {
+      "ipo_ts": 1784384850891,
+      "edit_count": 5,
+      "last_lines": 32,
+      "last_ts": 1784384975149,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "b02bcc33"
+    },
+    "Universe/Local/Biology/Neurosocius/个体.md": {
+      "ipo_ts": 1784384993121,
+      "edit_count": 11,
+      "last_lines": 73,
+      "last_ts": 1784385219571,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "b085b28f"
+    },
+    "洋能.md": {
+      "ipo_ts": 1784390009039,
+      "edit_count": 1,
+      "last_lines": 0,
+      "last_ts": 1784390009039,
+      "delisted": false,
+      "last_source": "onSave",
+      "last_content_hash": "0"
+    },
+    "Universe/Local/History/07_魔力溯源.md": {
+      "ipo_ts": 1784392637699,
+      "edit_count": 6,
+      "last_lines": 68,
+      "last_ts": 1784392793105,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "a202c7e8"
+    },
+    "Universe/Local/History/10_公开日.md": {
+      "ipo_ts": 1784393483376,
+      "edit_count": 10,
+      "last_lines": 67,
+      "last_ts": 1784393680173,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "a1d0e5f3"
     }
   }
 }
