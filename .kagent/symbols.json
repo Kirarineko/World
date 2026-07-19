@@ -236,12 +236,12 @@
     },
     "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/能力/总览.md": {
       "ipo_ts": 1784189938667,
-      "edit_count": 1,
-      "last_lines": 65,
-      "last_ts": 1784189938667,
+      "edit_count": 21,
+      "last_lines": 63,
+      "last_ts": 1784414497875,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "ae012e77"
+      "last_content_hash": "3c920a41"
     },
     "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/浅紫/基础档案.md": {
       "ipo_ts": 1784189961040,
@@ -335,12 +335,12 @@
     },
     "洋能.md": {
       "ipo_ts": 1784390009039,
-      "edit_count": 71,
-      "last_lines": 149,
-      "last_ts": 1784401871505,
+      "edit_count": 96,
+      "last_lines": 167,
+      "last_ts": 1784456607605,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "4359f78d"
+      "last_content_hash": "14e2372f"
     },
     "Universe/Local/History/07_魔力溯源.md": {
       "ipo_ts": 1784392637699,
@@ -404,6 +404,33 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "2b9f64f7"
+    },
+    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/能力/绯红摇篮曲.md": {
+      "ipo_ts": 1784413858150,
+      "edit_count": 23,
+      "last_lines": 59,
+      "last_ts": 1784414186557,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "99037011"
+    },
+    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/能力/IMG_20260601_123309..png": {
+      "ipo_ts": 1784413981622,
+      "edit_count": 2,
+      "last_lines": 28918,
+      "last_ts": 1784413984000,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "4a38311d"
+    },
+    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/经历.md": {
+      "ipo_ts": 1784414539774,
+      "edit_count": 15,
+      "last_lines": 93,
+      "last_ts": 1784414889147,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "339e161e"
     }
   }
 }
