@@ -2,12 +2,12 @@
   "symbols": {
     "上下文索引.md": {
       "ipo_ts": 1783510523479,
-      "edit_count": 129,
-      "last_lines": 55,
-      "last_ts": 1784397212945,
+      "edit_count": 145,
+      "last_lines": 56,
+      "last_ts": 1784458327493,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "63aef989"
+      "last_content_hash": "9d7ef2ce"
     },
     "镜像机制.md": {
       "ipo_ts": 1783775593728,
@@ -26,24 +26,6 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "b8f92df1"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/基础档案.md": {
-      "ipo_ts": 1783776359038,
-      "edit_count": 2,
-      "last_lines": 33,
-      "last_ts": 1784189915337,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "a7c4d261"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/星月湾.md": {
-      "ipo_ts": 1783776501749,
-      "edit_count": 108,
-      "last_lines": 175,
-      "last_ts": 1784294167236,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "a56e7d7e"
     },
     "Universe/Local/city/海渊城-Kaienjo/海渊城.md": {
       "ipo_ts": 1784131375824,
@@ -108,15 +90,6 @@
       "last_source": "onEdit",
       "last_content_hash": "645afa2b"
     },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/builds/星月湾人民医院/跨越者门诊.md": {
-      "ipo_ts": 1784134817633,
-      "edit_count": 10,
-      "last_lines": 89,
-      "last_ts": 1784146428883,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "bf9ca50"
-    },
     "Universe/Local/law/刑法·魔力篇.md": {
       "ipo_ts": 1784135425055,
       "edit_count": 6,
@@ -126,59 +99,14 @@
       "last_source": "onEdit",
       "last_content_hash": "592bf58b"
     },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/law/魔力管理条例.md": {
-      "ipo_ts": 1784135431729,
-      "edit_count": 3,
-      "last_lines": 115,
-      "last_ts": 1784146428929,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "3e7a1a9c"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/builds/星月湾人民医院/魔力损伤科.md": {
-      "ipo_ts": 1784135447232,
-      "edit_count": 3,
-      "last_lines": 88,
-      "last_ts": 1784146428892,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "41ab2f4e"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/builds/星月湾人民医院/总览.md": {
-      "ipo_ts": 1784135452091,
-      "edit_count": 3,
-      "last_lines": 69,
-      "last_ts": 1784146428875,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "2c9f4cf0"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/builds/研究园区/Results/星澜大模型.md": {
-      "ipo_ts": 1784139189200,
-      "edit_count": 68,
-      "last_lines": 272,
-      "last_ts": 1784219555395,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "3d08e99b"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/builds/研究园区/Results/152a7467d2ed6ca999c31b3dc188ce96.jpg": {
-      "ipo_ts": 1784139695586,
-      "edit_count": 3,
-      "last_lines": 153,
-      "last_ts": 1784141516669,
-      "delisted": false,
-      "last_source": "onSave",
-      "last_content_hash": "66e35ed1"
-    },
     "AGENTS.md": {
       "ipo_ts": 1784141033904,
-      "edit_count": 8,
-      "last_lines": 174,
-      "last_ts": 1784392452554,
+      "edit_count": 27,
+      "last_lines": 162,
+      "last_ts": 1784458673487,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "ba2c2da8"
+      "last_content_hash": "75d1adc0"
     },
     "核心设定.md": {
       "ipo_ts": 1784141033930,
@@ -198,24 +126,6 @@
       "last_source": "onEdit",
       "last_content_hash": "c3a353f9"
     },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/law/执法实践.md": {
-      "ipo_ts": 1784141229720,
-      "edit_count": 2,
-      "last_lines": 124,
-      "last_ts": 1784141233658,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "c6ab1966"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/builds/研究园区/Results/be9e6a3a4a5ed6e08ce9c87674babb4e.jpg": {
-      "ipo_ts": 1784142008177,
-      "edit_count": 1,
-      "last_lines": 932,
-      "last_ts": 1784142008177,
-      "delisted": false,
-      "last_source": "onSave",
-      "last_content_hash": "a0cfb567"
-    },
     "Universe/Local/History/世界史年表.md": {
       "ipo_ts": 1784189874947,
       "edit_count": 3,
@@ -233,33 +143,6 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "941fb1d7"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/能力/总览.md": {
-      "ipo_ts": 1784189938667,
-      "edit_count": 21,
-      "last_lines": 63,
-      "last_ts": 1784414497875,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "3c920a41"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/浅紫/基础档案.md": {
-      "ipo_ts": 1784189961040,
-      "edit_count": 5,
-      "last_lines": 51,
-      "last_ts": 1784405475994,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "ef6f4468"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/浅紫/能力/总览.md": {
-      "ipo_ts": 1784189975688,
-      "edit_count": 1,
-      "last_lines": 108,
-      "last_ts": 1784189975688,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "971a6153"
     },
     "README.md": {
       "ipo_ts": 1784190215226,
@@ -378,59 +261,32 @@
       "last_source": "onEdit",
       "last_content_hash": "3f54d8c1"
     },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/浅紫/能力与习惯.md": {
-      "ipo_ts": 1784405246258,
-      "edit_count": 2,
-      "last_lines": 98,
-      "last_ts": 1784405333456,
+    "Universe/Local/city/星月湾-hoshizuki/星月湾.md": {
+      "ipo_ts": 1784457903431,
+      "edit_count": 1,
+      "last_lines": 175,
+      "last_ts": 1784457903431,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "62636861"
+      "last_content_hash": "a56e7d7e"
     },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/浅紫/经历.md": {
-      "ipo_ts": 1784405247839,
-      "edit_count": 2,
-      "last_lines": 143,
-      "last_ts": 1784405488040,
+    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/上下文索引.md": {
+      "ipo_ts": 1784458084704,
+      "edit_count": 1,
+      "last_lines": 18,
+      "last_ts": 1784458084704,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "702cbd65"
+      "last_content_hash": "ef76b047"
     },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/浅紫/外观.md": {
-      "ipo_ts": 1784405249070,
-      "edit_count": 5,
-      "last_lines": 49,
-      "last_ts": 1784405513062,
+    "Universe/Local/city/海渊城-Kaienjo/上下文索引.md": {
+      "ipo_ts": 1784458095782,
+      "edit_count": 1,
+      "last_lines": 19,
+      "last_ts": 1784458095782,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "2b9f64f7"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/能力/绯红摇篮曲.md": {
-      "ipo_ts": 1784413858150,
-      "edit_count": 23,
-      "last_lines": 59,
-      "last_ts": 1784414186557,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "99037011"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/能力/IMG_20260601_123309..png": {
-      "ipo_ts": 1784413981622,
-      "edit_count": 2,
-      "last_lines": 28918,
-      "last_ts": 1784413984000,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "4a38311d"
-    },
-    "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/character/茉璃/经历.md": {
-      "ipo_ts": 1784414539774,
-      "edit_count": 15,
-      "last_lines": 93,
-      "last_ts": 1784414889147,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "339e161e"
+      "last_content_hash": "63a7cc75"
     }
   }
 }
