@@ -84,6 +84,7 @@ Universe/Local/
 │   └── 沉渊战争/         \# 战役子目录  
 ├── Biology/              \# 物种档案  
 │   └── Neurosocius/      \# 潮髓/飑髓  
+├── 地理/                 \# 四块大陆（承明、离火、南溟洲、北星洲）  
 └── city/  
     ├── 星月湾-hoshizuki/  \# 星月湾（主角城，中文名-日语罗马音目录名）  
     │   └── Hoshizuki/  
