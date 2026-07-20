@@ -2,12 +2,12 @@
   "symbols": {
     "上下文索引.md": {
       "ipo_ts": 1783510523479,
-      "edit_count": 146,
-      "last_lines": 62,
-      "last_ts": 1784486082141,
+      "edit_count": 147,
+      "last_lines": 66,
+      "last_ts": 1784572231169,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "c5037388"
+      "last_content_hash": "4fdc937f"
     },
     "镜像机制.md": {
       "ipo_ts": 1783775593728,
@@ -333,23 +333,32 @@
       "last_source": "onEdit",
       "last_content_hash": "b55c1d68"
     },
-    "Universe/Local/character/茉璃/经历.md": {
-      "ipo_ts": 1784495105349,
-      "edit_count": 29,
-      "last_lines": 111,
-      "last_ts": 1784510713499,
+    "Universe/Local/city/昭明京-Zhaoming/昭明京.md": {
+      "ipo_ts": 1784572200834,
+      "edit_count": 16,
+      "last_lines": 48,
+      "last_ts": 1784572493556,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "22a7096e"
+      "last_content_hash": "effacfef"
     },
-    "Universe/Local/character/茉璃/能力/绯红摇篮曲.md": {
-      "ipo_ts": 1784495112737,
+    "Universe/Local/city/昭明京-Zhaoming/上下文索引.md": {
+      "ipo_ts": 1784572210021,
       "edit_count": 1,
-      "last_lines": 65,
-      "last_ts": 1784495112737,
+      "last_lines": 7,
+      "last_ts": 1784572210021,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "48a11783"
+      "last_content_hash": "2dba9d74"
+    },
+    "Universe/Local/character/特殊/.gitkeep": {
+      "ipo_ts": 1784572602291,
+      "edit_count": 1,
+      "last_lines": 0,
+      "last_ts": 1784572602291,
+      "delisted": false,
+      "last_source": "onSave",
+      "last_content_hash": "0"
     }
   }
 }
