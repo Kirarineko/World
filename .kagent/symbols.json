@@ -2,21 +2,21 @@
   "symbols": {
     "上下文索引.md": {
       "ipo_ts": 1783510523479,
-      "edit_count": 147,
+      "edit_count": 148,
       "last_lines": 66,
-      "last_ts": 1784572231169,
+      "last_ts": 1784577386738,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "4fdc937f"
+      "last_content_hash": "614e4269"
     },
     "镜像机制.md": {
       "ipo_ts": 1783775593728,
-      "edit_count": 127,
-      "last_lines": 116,
-      "last_ts": 1784397409492,
+      "edit_count": 128,
+      "last_lines": 128,
+      "last_ts": 1784666871340,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "5a481da2"
+      "last_content_hash": "e0a22253"
     },
     "Universe/Local/镜像架构.md": {
       "ipo_ts": 1783776262317,
@@ -173,12 +173,12 @@
     },
     "Universe/Local/基础设定.md": {
       "ipo_ts": 1784197165758,
-      "edit_count": 96,
-      "last_lines": 68,
-      "last_ts": 1784392242915,
+      "edit_count": 98,
+      "last_lines": 72,
+      "last_ts": 1784579928053,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "d2d4809b"
+      "last_content_hash": "36f57c7b"
     },
     "Universe/Local/2026-07-10_23.27.11_x-12800_z-34816psd.png": {
       "ipo_ts": 1784278660616,
@@ -333,24 +333,6 @@
       "last_source": "onEdit",
       "last_content_hash": "b55c1d68"
     },
-    "Universe/Local/city/昭明京-Zhaoming/昭明京.md": {
-      "ipo_ts": 1784572200834,
-      "edit_count": 16,
-      "last_lines": 48,
-      "last_ts": 1784572493556,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "effacfef"
-    },
-    "Universe/Local/city/昭明京-Zhaoming/上下文索引.md": {
-      "ipo_ts": 1784572210021,
-      "edit_count": 1,
-      "last_lines": 7,
-      "last_ts": 1784572210021,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "2dba9d74"
-    },
     "Universe/Local/character/特殊/.gitkeep": {
       "ipo_ts": 1784572602291,
       "edit_count": 1,
@@ -359,6 +341,87 @@
       "delisted": false,
       "last_source": "onSave",
       "last_content_hash": "0"
+    },
+    "Universe/Local/city/昭明京-Luminara/昭明京.md": {
+      "ipo_ts": 1784577370383,
+      "edit_count": 8,
+      "last_lines": 81,
+      "last_ts": 1784660634822,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "692e3d1b"
+    },
+    "Universe/Local/city/昭明京-Luminara/builds/邵明承天机场.md": {
+      "ipo_ts": 1784579789011,
+      "edit_count": 2,
+      "last_lines": 35,
+      "last_ts": 1784579839297,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "ef90d123"
+    },
+    "Universe/Local/city/昭明京-Luminara/builds/邵明长宁机场.md": {
+      "ipo_ts": 1784579799489,
+      "edit_count": 2,
+      "last_lines": 35,
+      "last_ts": 1784579846230,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "186732a7"
+    },
+    "Universe/Local/city/昭明京-Luminara/上下文索引.md": {
+      "ipo_ts": 1784579815385,
+      "edit_count": 2,
+      "last_lines": 12,
+      "last_ts": 1784633208871,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "6c1b2b9b"
+    },
+    "Universe/Local/city/昭明京-Luminara/builds/承天航空.md": {
+      "ipo_ts": 1784633185542,
+      "edit_count": 3,
+      "last_lines": 55,
+      "last_ts": 1784655849901,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "e39c7575"
+    },
+    ".opencode/skills/creative-freedom/SKILL.md": {
+      "ipo_ts": 1784668133538,
+      "edit_count": 1,
+      "last_lines": 25,
+      "last_ts": 1784668133538,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "769b1ad"
+    },
+    ".opencode/.gitignore": {
+      "ipo_ts": 1784668318677,
+      "edit_count": 1,
+      "last_lines": 5,
+      "last_ts": 1784668318677,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "456dff42"
+    },
+    ".opencode/package-lock.json": {
+      "ipo_ts": 1784668340961,
+      "edit_count": 1,
+      "last_lines": 401,
+      "last_ts": 1784668340961,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "f5cb5b8c"
+    },
+    ".opencode/package.json": {
+      "ipo_ts": 1784668340963,
+      "edit_count": 1,
+      "last_lines": 5,
+      "last_ts": 1784668340963,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "6918a223"
     }
   }
 }
