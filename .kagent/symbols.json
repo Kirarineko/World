@@ -2,12 +2,12 @@
   "symbols": {
     "上下文索引.md": {
       "ipo_ts": 1783510523479,
-      "edit_count": 148,
-      "last_lines": 66,
-      "last_ts": 1784577386738,
+      "edit_count": 149,
+      "last_lines": 70,
+      "last_ts": 1784746962106,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "614e4269"
+      "last_content_hash": "2b1ade14"
     },
     "镜像机制.md": {
       "ipo_ts": 1783775593728,
@@ -299,12 +299,12 @@
     },
     "Universe/Local/地理/承明大陆.md": {
       "ipo_ts": 1784486030555,
-      "edit_count": 78,
+      "edit_count": 79,
       "last_lines": 74,
-      "last_ts": 1784487505184,
+      "last_ts": 1784746972514,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "44614dc2"
+      "last_content_hash": "adae4529"
     },
     "Universe/Local/地理/离火大陆.md": {
       "ipo_ts": 1784486041738,
@@ -422,6 +422,42 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "6918a223"
+    },
+    "Universe/Local/character/主角/茉璃/能力/总览.md": {
+      "ipo_ts": 1784720095144,
+      "edit_count": 1,
+      "last_lines": 71,
+      "last_ts": 1784720095144,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "72bf5a11"
+    },
+    ".opencode/skills/creative-freedom/SKILL.mdddd": {
+      "ipo_ts": 1784745489677,
+      "edit_count": 1,
+      "last_lines": 25,
+      "last_ts": 1784745489677,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "63288726"
+    },
+    "Universe/Local/city/雾城-Mistwall/雾城.md": {
+      "ipo_ts": 1784746940760,
+      "edit_count": 38,
+      "last_lines": 82,
+      "last_ts": 1784747954826,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "ef657e77"
+    },
+    "Universe/Local/city/雾城-Mistwall/上下文索引.md": {
+      "ipo_ts": 1784746948633,
+      "edit_count": 1,
+      "last_lines": 7,
+      "last_ts": 1784746948633,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "73c2a932"
     }
   }
 }
