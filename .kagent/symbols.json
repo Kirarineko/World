@@ -2,30 +2,12 @@
   "symbols": {
     "上下文索引.md": {
       "ipo_ts": 1783510523479,
-      "edit_count": 149,
-      "last_lines": 70,
-      "last_ts": 1784746962106,
+      "edit_count": 154,
+      "last_lines": 72,
+      "last_ts": 1784981965595,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "2b1ade14"
-    },
-    "镜像机制.md": {
-      "ipo_ts": 1783775593728,
-      "edit_count": 128,
-      "last_lines": 128,
-      "last_ts": 1784666871340,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "e0a22253"
-    },
-    "Universe/Local/镜像架构.md": {
-      "ipo_ts": 1783776262317,
-      "edit_count": 14,
-      "last_lines": 31,
-      "last_ts": 1783782730204,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "b8f92df1"
+      "last_content_hash": "533df324"
     },
     "Universe/Local/city/海渊城-Kaienjo/海渊城.md": {
       "ipo_ts": 1784131375824,
@@ -56,21 +38,21 @@
     },
     "Universe/Local/law/身份登记法.md": {
       "ipo_ts": 1784134715081,
-      "edit_count": 12,
+      "edit_count": 13,
       "last_lines": 148,
-      "last_ts": 1784146428957,
+      "last_ts": 1784983109689,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "41fdc1b7"
+      "last_content_hash": "484ff646"
     },
     "Universe/Local/law/宪法纲要.md": {
       "ipo_ts": 1784134734189,
-      "edit_count": 8,
+      "edit_count": 9,
       "last_lines": 117,
-      "last_ts": 1784277937303,
+      "last_ts": 1784983100326,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "e6b43225"
+      "last_content_hash": "b89ff982"
     },
     "能力体系.md": {
       "ipo_ts": 1784134748013,
@@ -101,12 +83,12 @@
     },
     "AGENTS.md": {
       "ipo_ts": 1784141033904,
-      "edit_count": 28,
-      "last_lines": 163,
-      "last_ts": 1784486104492,
+      "edit_count": 32,
+      "last_lines": 165,
+      "last_ts": 1784983151200,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "4e06e2ef"
+      "last_content_hash": "8420a783"
     },
     "核心设定.md": {
       "ipo_ts": 1784141033930,
@@ -128,12 +110,12 @@
     },
     "Universe/Local/History/世界史年表.md": {
       "ipo_ts": 1784189874947,
-      "edit_count": 3,
+      "edit_count": 4,
       "last_lines": 35,
-      "last_ts": 1784393431136,
+      "last_ts": 1784982129648,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "c8b672b8"
+      "last_content_hash": "e16cd949"
     },
     "Universe/Local/History/08_沉渊战争.md": {
       "ipo_ts": 1784189896403,
@@ -146,21 +128,21 @@
     },
     "README.md": {
       "ipo_ts": 1784190215226,
-      "edit_count": 3,
+      "edit_count": 4,
       "last_lines": 81,
-      "last_ts": 1784190243851,
+      "last_ts": 1784982119256,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "ae7c9b78"
+      "last_content_hash": "c39d6cd4"
     },
     "亚空间志.md": {
       "ipo_ts": 1784191041288,
-      "edit_count": 56,
+      "edit_count": 58,
       "last_lines": 275,
-      "last_ts": 1784494661246,
+      "last_ts": 1784982171596,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "93b227bb"
+      "last_content_hash": "1f42f82b"
     },
     "维度界面.md": {
       "ipo_ts": 1784191077542,
@@ -173,9 +155,9 @@
     },
     "Universe/Local/基础设定.md": {
       "ipo_ts": 1784197165758,
-      "edit_count": 98,
+      "edit_count": 100,
       "last_lines": 72,
-      "last_ts": 1784579928053,
+      "last_ts": 1784980999287,
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "36f57c7b"
@@ -218,12 +200,12 @@
     },
     "洋能.md": {
       "ipo_ts": 1784390009039,
-      "edit_count": 96,
+      "edit_count": 98,
       "last_lines": 167,
-      "last_ts": 1784456607605,
+      "last_ts": 1784982141488,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "14e2372f"
+      "last_content_hash": "5343bdf5"
     },
     "Universe/Local/History/07_魔力溯源.md": {
       "ipo_ts": 1784392637699,
@@ -272,12 +254,14 @@
     },
     "Universe/Local/city/星月湾-hoshizuki/Hoshizuki/上下文索引.md": {
       "ipo_ts": 1784458084704,
-      "edit_count": 1,
+      "edit_count": 2,
       "last_lines": 18,
-      "last_ts": 1784458084704,
-      "delisted": false,
+      "last_ts": 1784981069673,
+      "delisted": true,
       "last_source": "onEdit",
-      "last_content_hash": "ef76b047"
+      "last_content_hash": "cfc819c5",
+      "delisted_at": 1784981080482,
+      "delist_rounds": 0
     },
     "Universe/Local/city/海渊城-Kaienjo/上下文索引.md": {
       "ipo_ts": 1784458095782,
@@ -299,12 +283,12 @@
     },
     "Universe/Local/地理/承明大陆.md": {
       "ipo_ts": 1784486030555,
-      "edit_count": 79,
+      "edit_count": 96,
       "last_lines": 74,
-      "last_ts": 1784746972514,
+      "last_ts": 1784830770582,
       "delisted": false,
       "last_source": "onEdit",
-      "last_content_hash": "adae4529"
+      "last_content_hash": "abd4b1"
     },
     "Universe/Local/地理/离火大陆.md": {
       "ipo_ts": 1784486041738,
@@ -387,15 +371,6 @@
       "last_source": "onEdit",
       "last_content_hash": "e39c7575"
     },
-    ".opencode/skills/creative-freedom/SKILL.md": {
-      "ipo_ts": 1784668133538,
-      "edit_count": 1,
-      "last_lines": 25,
-      "last_ts": 1784668133538,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "769b1ad"
-    },
     ".opencode/.gitignore": {
       "ipo_ts": 1784668318677,
       "edit_count": 1,
@@ -458,6 +433,69 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "73c2a932"
+    },
+    "Universe/Local/character/特殊/涟漪/涟漪.md": {
+      "ipo_ts": 1784749456380,
+      "edit_count": 35,
+      "last_lines": 47,
+      "last_ts": 1784750165863,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "7a6214c6"
+    },
+    "Universe/Local/Biology/生物基础.md": {
+      "ipo_ts": 1784905424812,
+      "edit_count": 12,
+      "last_lines": 57,
+      "last_ts": 1784980999284,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "38ad8d83"
+    },
+    "Universe/Local/镜像架构.md": {
+      "ipo_ts": 1784980941923,
+      "edit_count": 2,
+      "last_lines": 31,
+      "last_ts": 1784980999289,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "f624bfef"
+    },
+    "Universe/Local/city/星月湾-hoshizuki/上下文索引.md": {
+      "ipo_ts": 1784981077782,
+      "edit_count": 1,
+      "last_lines": 18,
+      "last_ts": 1784981077782,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "cfc819c5"
+    },
+    "Universe/Local/city/星月湾-hoshizuki/builds/星月湾人民医院/跨越者门诊.md": {
+      "ipo_ts": 1784981808677,
+      "edit_count": 4,
+      "last_lines": 87,
+      "last_ts": 1784983128002,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "c14a7d17"
+    },
+    "Universe/Local/city/星月湾-hoshizuki/Foods/饮食.md": {
+      "ipo_ts": 1784981824656,
+      "edit_count": 1,
+      "last_lines": 156,
+      "last_ts": 1784981824656,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "aeb4a6f4"
+    },
+    "Universe/Local/city/星月湾-hoshizuki/builds/星月湾人民医院/魔力损伤科.md": {
+      "ipo_ts": 1784983166347,
+      "edit_count": 1,
+      "last_lines": 88,
+      "last_ts": 1784983166347,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "302e6515"
     }
   }
 }
