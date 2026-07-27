@@ -162,15 +162,6 @@
       "last_source": "onEdit",
       "last_content_hash": "8224c0f8"
     },
-    "Universe/Local/2026-07-10_23.27.11_x-12800_z-34816psd.png": {
-      "ipo_ts": 1784278660616,
-      "edit_count": 4,
-      "last_lines": 8337,
-      "last_ts": 1785172088703,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "2b6b3d60"
-    },
     "Universe/Local/Biology/Neurosocius/飑髓.md": {
       "ipo_ts": 1784383944962,
       "edit_count": 25,
@@ -504,24 +495,6 @@
       "last_source": "onEdit",
       "last_content_hash": "7ef8b2e5"
     },
-    "Universe/Local/2026-07-10_23.27.11_x-12800_z-34816.png": {
-      "ipo_ts": 1785170570526,
-      "edit_count": 2,
-      "last_lines": 8332,
-      "last_ts": 1785170593886,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "7c5f1f36"
-    },
-    "Universe/Local/2026-07-10_23.27.11_x-12800_z-34816.psd": {
-      "ipo_ts": 1785170857738,
-      "edit_count": 1,
-      "last_lines": 28875,
-      "last_ts": 1785170857738,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "c0fe7203"
-    },
     "Universe/Local/map.png": {
       "ipo_ts": 1785172096669,
       "edit_count": 1,
@@ -531,15 +504,6 @@
       "last_source": "onEdit",
       "last_content_hash": "2b6b3d60"
     },
-    "Universe/Local/地理/云梦泽.md": {
-      "ipo_ts": 1785174482261,
-      "edit_count": 1,
-      "last_lines": 113,
-      "last_ts": 1785174482261,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "34a6024b"
-    },
     "Universe/Local/地理/承明大陆/云梦泽.md": {
       "ipo_ts": 1785174592859,
       "edit_count": 30,
@@ -548,15 +512,6 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "c0897d6a"
-    },
-    "Universe/Local/city/雾城-Mistwall/赫卡忒猎手.md": {
-      "ipo_ts": 1785179187670,
-      "edit_count": 1,
-      "last_lines": 107,
-      "last_ts": 1785179187670,
-      "delisted": false,
-      "last_source": "onEdit",
-      "last_content_hash": "8f6ecb4e"
     },
     "Universe/Local/city/雾城-Mistwall/组织/赫卡忒猎手.md": {
       "ipo_ts": 1785179289631,
