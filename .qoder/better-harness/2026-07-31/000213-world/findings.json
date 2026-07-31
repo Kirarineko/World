@@ -1,0 +1,104 @@
+{
+  "summary": {
+    "projectName": "青空归处",
+    "locale": "zh-CN",
+    "modelId": "agent-work-loop-v4",
+    "reportContractVersion": 25,
+    "overview": "项目拥有清晰的上下文路由体系和明确的写作约束，但声明的规则缺乏机械化验证手段。会话证据极度稀疏（session-limited），行为维度无法从会话数据判定。",
+    "aiAgentPractice": {
+      "inspectedSurfaces": [
+        "Rules"
+      ],
+      "coverageRows": [
+        {
+          "surface": "Rules",
+          "scopes": [
+            "Project"
+          ],
+          "count": 1,
+          "paths": [
+            "AGENTS.md"
+          ]
+        },
+        {
+          "surface": "Custom Agents",
+          "scopes": [
+            "Project"
+          ],
+          "count": 0
+        }
+      ]
+    },
+    "assignmentSummaries": [],
+    "dimensions": [
+      {
+        "id": "task-understanding",
+        "label": "任务理解",
+        "score": 68,
+        "summary": "AGENTS.md 提供三级路由（AGENTS.md → 上下文索引 → 城市子索引）和明确的世界观铁律、术语边界与常见错误清单，代理可到达正确上下文。无会话行为证据验证实际使用效果。",
+        "findingRefs": []
+      },
+      {
+        "id": "controlled-execution",
+        "label": "可控执行",
+        "score": 62,
+        "summary": "纯内容项目，唯一脚本 count_words.py 零外部依赖，启动成本极低。权限边界以'禁止删除任何文件'声明。无会话执行证据。",
+        "findingRefs": []
+      },
+      {
+        "id": "change-validation",
+        "label": "改动验证",
+        "score": 42,
+        "summary": "无测试、无 CI、无 hook、无 schema 校验。索引维护和术语规范声明为'必须严格执行'但完全依赖纪律，无任何机械化验证路径。",
+        "findingRefs": [
+          "index-integrity-unverified",
+          "terminology-constraints-unchecked"
+        ]
+      },
+      {
+        "id": "reliable-delivery",
+        "label": "可靠交付",
+        "score": 52,
+        "summary": "Git 提供基本版本控制和回滚能力，提交规范已声明。无 PR 审查、无 CI 门控、无结构化验收流程。",
+        "findingRefs": []
+      },
+      {
+        "id": "learning-capture",
+        "label": "经验沉淀",
+        "score": 35,
+        "summary": "无项目 Skills、无结构化 Memory 标题、无重复工作流证据。分析器确认 Learning Capture 暂不适用——需要两个可比观察窗口和一次改进对比。",
+        "findingRefs": []
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "index-integrity-unverified",
+      "title": "索引维护规则声明'必须严格执行'但无任何机械化校验",
+      "severity": "Low",
+      "reason": "AGENTS.md 明确要求'每次新增关键目录或文件时，必须同步更新索引'（主索引和城市索引），但项目中不存在任何脚本、hook 或 CI 来验证索引与实际文件树的一致性。当前 146 个跟踪文件、多层索引结构（主索引 + 5 城市子索引）下，不一致可静默累积，导致代理路由到缺失或过时的文件。",
+      "expectedOutput": [
+        "提供一个可运行的索引校验脚本，使代理或维护者能随时检测索引与文件树的偏差。"
+      ],
+      "expectedArtifact": "Script",
+      "aiFixPrompt": "/better-harness fix this issue\n\n为项目添加一个索引完整性校验脚本（Python，纯标准库），遍历 Universe/Local/city/ 和 Universe/Local/character/ 下的目录结构，对比 上下文索引.md 和各城市 上下文索引.md 中声明的条目，报告缺失或多余的索引项。\n\n## Validation\n\n- 运行 python check_index.py 并确认输出列出当前不一致项\n- 确认脚本退出码反映校验状态（0=一致，1=存在不一致）",
+      "dimensionRefs": [
+        "change-validation"
+      ]
+    },
+    {
+      "id": "terminology-constraints-unchecked",
+      "title": "术语与格式禁令无自动化检测手段",
+      "severity": "Low",
+      "reason": "AGENTS.md 常见错误章节明确禁止在文件中出现英文缩写术语（如 CoW、fsck、Btrfs）以及在 in-world 叙事中使用'亚空间'（应用'异世界'代替）。这些规则中有一部分可通过文本搜索机械检测，但项目中无任何 grep 脚本或预提交检查执行此验证。违规仅在人工审阅时偶然发现。",
+      "expectedOutput": [
+        "提供一个可运行的术语校验脚本，使代理在编辑后能自动检测常见术语违规。"
+      ],
+      "expectedArtifact": "Script",
+      "aiFixPrompt": "/better-harness fix this issue\n\n添加一个术语校验脚本（Python，纯标准库），扫描 Universe/ 下所有 .md 文件，检测 AGENTS.md 常见错误章节中列出的禁用英文缩写术语列表，并报告违规位置。可选：区分 meta 文档和 in-world 叙事文件中'亚空间'的使用合规性。\n\n## Validation\n\n- 运行 python check_terms.py 并确认输出报告当前违规数\n- 确认脚本退出码反映校验状态（0=无违规，1=存在违规）",
+      "dimensionRefs": [
+        "change-validation"
+      ]
+    }
+  ]
+}
