@@ -34,20 +34,22 @@ World/
         │   └── 洋能峰值时代/ # 扩展细节
         ├── Biology/
         │   └── Neurosocius/  # 潮髓/飑髓
-        └── city/
-            ├── 星月湾-hoshizuki/   # 星月湾：平铺，无内层
-            │   ├── 星月湾.md
-            │   ├── builds/     # 机构（HBI、研究园区、人民医院、企业）
-            │   ├── Culture/    # 节日、歌词
-            │   ├── Foods/      # 饮食
-            │   └── law/        # 地方法规、执法实践
-            ├── 海渊城-Kaienjo/
-            │   ├── 海渊城.md
-            │   ├── builds/         # 恒常动力、海渊城海洋大学
-            │   ├── Culture/ Foods/ law/ 景观/
-            │   └── 上下文索引.md
-            ├── 昭明京-Luminara/
-            └── 雾城-Mistwall/
+        └── city/             # 第一层按大陆分块
+            └── 承明大陆/       # 目前所有城市均在此；北星洲/离火大陆/南溟洲为空
+                ├── 星月湾-hoshizuki/   # 星月湾：平铺，无内层
+                │   ├── 星月湾.md
+                │   ├── builds/     # 机构（HBI、研究园区、人民医院、企业）
+                │   ├── Culture/    # 节日、歌词
+                │   ├── Foods/      # 饮食
+                │   └── law/        # 地方法规、执法实践
+                ├── 海渊城-Kaienjo/
+                │   ├── 海渊城.md
+                │   ├── builds/         # 恒常动力、海渊城海洋大学
+                │   ├── Culture/ Foods/ law/ 景观/
+                │   └── 上下文索引.md
+                ├── 昭明京-Luminara/
+                ├── 雾城-Mistwall/
+                └── 满月城-Tsukimi/
 ```
 
 ---
