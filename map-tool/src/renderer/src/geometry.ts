@@ -9,27 +9,29 @@ export function polylineLength(pts: Pt[]): number {
   return s
 }
 
-function cubicAt(p0: Pt, p1: Pt, p2: Pt, p3: Pt, t: number): Pt {
-  const u = 1 - t
-  const a = u * u * u
-  const b = 3 * u * u * t
-  const c = 3 * u * t * t
-  const d = t * t * t
-  return {
-    x: a * p0.x + b * p1.x + c * p2.x + d * p3.x,
-    y: a * p0.y + b * p1.y + c * p2.y + d * p3.y,
+/** Catmull-Rom 样条采样：生成平滑穿过全部锚点的曲线（不限锚点数量） */
+export function bezierSamples(pts: Pt[], seg = 24): Pt[] {
+  if (pts.length <= 2) return pts
+  const out: Pt[] = [pts[0]]
+  for (let i = 0; i < pts.length - 1; i++) {
+    const p0 = pts[Math.max(0, i - 1)]
+    const p1 = pts[i]
+    const p2 = pts[i + 1]
+    const p3 = pts[Math.min(pts.length - 1, i + 2)]
+    for (let j = 1; j <= seg; j++) {
+      const t = j / seg
+      const t2 = t * t
+      const t3 = t2 * t
+      out.push({
+        x: 0.5 * (2 * p1.x + (p2.x - p0.x) * t + (2 * p0.x - 5 * p1.x + 4 * p2.x - p3.x) * t2 + (3 * p1.x - p0.x - 3 * p2.x + p3.x) * t3),
+        y: 0.5 * (2 * p1.y + (p2.y - p0.y) * t + (2 * p0.y - 5 * p1.y + 4 * p2.y - p3.y) * t2 + (3 * p1.y - p0.y - 3 * p2.y + p3.y) * t3),
+      })
+    }
   }
-}
-
-/** 三次贝塞尔采样为折线，用于绘制与测长 */
-export function bezierSamples(pts: Pt[], n = 120): Pt[] {
-  if (pts.length < 4) return pts
-  const out: Pt[] = []
-  for (let i = 0; i <= n; i++) out.push(cubicAt(pts[0], pts[1], pts[2], pts[3], i / n))
   return out
 }
 
-/** 形状对应的渲染/测量点列 */
+/** 形状对应的渲染/测量点列（贝塞尔为穿过锚点的平滑曲线采样） */
 export function shapePath(s: Shape): Pt[] {
   return s.kind === 'bezier' ? bezierSamples(s.points) : s.points
 }

@@ -75,7 +75,7 @@ const MEASURE_HINT: Record<ToolId, string> = {
   line: '按住拖动绘制直线，松开完成',
   polyline: '单击添加节点，双击或回车结束，Esc 取消',
   freehand: '按住拖动自由绘制，松开完成',
-  bezier: '依次单击：起点 → 控制点 1 → 控制点 2 → 终点；之后可拖动节点调整',
+  bezier: '单击添加锚点（数量不限），曲线自动平滑穿过锚点；双击或回车结束，之后可拖动锚点调整',
   'area-freehand': '单击开始，移动鼠标自由勾勒，再次单击自动闭合并计算面积',
   'area-polygon': '单击添加顶点，双击或回车闭合；之后可拖动顶点调整',
   lasso: '按住左键拖动圈选，松开自动闭合并计算面积',
@@ -186,6 +186,7 @@ export default function CanvasStage(props: Props) {
     const v = viewRef.current
     const pts = dedupe(d.points, 2 / v.z)
     if (d.kind === 'polyline' && pts.length >= 2) commitShape('polyline', pts)
+    if (d.kind === 'bezier' && pts.length >= 2) commitShape('bezier', pts)
     if (d.kind === 'area-polygon' && pts.length >= 3) commitShape('area-polygon', pts)
     if (d.kind === 'area-freehand' && pts.length >= 3) commitShape('area-freehand', pts)
     setDraft(null)
@@ -274,21 +275,11 @@ export default function CanvasStage(props: Props) {
         break
       case 'polyline':
       case 'area-polygon':
+      case 'bezier':
         setDraft((d) =>
           d && d.kind === tool ? { kind: d.kind, points: [...d.points, p] } : { kind: tool, points: [p] },
         )
         break
-      case 'bezier': {
-        const d = draftRef.current
-        const pts = d && d.kind === 'bezier' ? [...d.points, p] : [p]
-        if (pts.length === 4) {
-          commitShape('bezier', pts)
-          setDraft(null)
-        } else {
-          setDraft({ kind: 'bezier', points: pts })
-        }
-        break
-      }
       case 'area-freehand': {
         const d = draftRef.current
         if (d && d.kind === 'area-freehand') {
@@ -329,6 +320,8 @@ export default function CanvasStage(props: Props) {
           setLive({ kind: tool, points: [...pts] })
         }
       } else {
+        // 直线 / 校准：实时端点必须写回拖拽记录，否则松手时取不到终点
+        dr.points = [pts[0], p]
         setLive((l) => (l ? { kind: l.kind, points: [pts[0], p] } : l))
       }
       return
@@ -474,12 +467,7 @@ export default function CanvasStage(props: Props) {
     if (draft) {
       const preview = cursor && tool !== 'area-freehand' ? [...draft.points, cursor] : draft.points
       if (preview.length >= 2) {
-        const kind: ShapeKind = draft.kind === 'bezier' ? 'polyline' : draft.kind
-        drawPath(kind, preview, pal.draft, true)
-      }
-      // 贝塞尔已放置点的预览曲线
-      if (draft.kind === 'bezier' && draft.points.length === 3 && cursor) {
-        drawPath('bezier', [...draft.points, cursor], pal.draft, true)
+        drawPath(draft.kind, preview, pal.draft, true)
       }
       const r = 3.5 / v.z
       for (const p of draft.points) {
@@ -494,19 +482,6 @@ export default function CanvasStage(props: Props) {
     const active = shapes.find((s) => s.id === activeId)
     if (active && (active.kind === 'bezier' || active.kind === 'area-polygon')) {
       drawHandles(active)
-      if (active.kind === 'bezier') {
-        // 控制点连线
-        ctx.beginPath()
-        ctx.moveTo(active.points[0].x, active.points[0].y)
-        ctx.lineTo(active.points[1].x, active.points[1].y)
-        ctx.moveTo(active.points[2].x, active.points[2].y)
-        ctx.lineTo(active.points[3].x, active.points[3].y)
-        ctx.strokeStyle = pal.draft
-        ctx.lineWidth = 1 / v.z
-        ctx.setLineDash([4 / v.z, 4 / v.z])
-        ctx.stroke()
-        ctx.setLineDash([])
-      }
     }
   }, [img, view, shapes, live, draft, cursor, activeId, scale, tool, theme])
 
