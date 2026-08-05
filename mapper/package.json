@@ -1,0 +1,13 @@
+{
+  "name": "mapper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "地图测量工具：比例尺标定、测距、面积、矢量图层",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^43.3.0"
+  }
+}
