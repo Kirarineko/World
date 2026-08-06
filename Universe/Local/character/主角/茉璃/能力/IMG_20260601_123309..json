@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "unit": "km",
+  "calib": {
+    "kmPerPx": 0,
+    "samples": []
+  },
+  "view": {
+    "scale": 0.34630371093749995,
+    "ox": 45.270000000000095,
+    "oy": 201.86551757812504
+  },
+  "layers": [
+    {
+      "id": "l2_6kyc3c",
+      "name": "标注",
+      "visible": true,
+      "color": "#2060e0",
+      "width": 2,
+      "items": []
+    }
+  ]
+}
