@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-120 -130 260 260"
+     width="260" height="260" role="img" aria-label="皓月夜明 图标">
+  <title>皓月夜明 · 标识</title>
+  <desc>深蓝月体承载未解读的星野，左侧月牙为已见之光，右侧微光是月之暗面里存在的、尚未被读懂的光。环为一笔未闭合的轨迹。</desc>
+  <defs>
+    <radialGradient id="lunalit-body" cx="36%" cy="26%" r="88%">
+      <stop offset="0" stop-color="#26334F"/>
+      <stop offset="52%" stop-color="#131C33"/>
+      <stop offset="100%" stop-color="#070C17"/>
+    </radialGradient>
+    <linearGradient id="lunalit-moon" x1="0.05" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#FFFDF7"/>
+      <stop offset="42%" stop-color="#F8E9C4"/>
+      <stop offset="100%" stop-color="#E3BE7E"/>
+    </linearGradient>
+    <linearGradient id="lunalit-limb" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#A9C2EE" stop-opacity="0.52"/>
+      <stop offset="100%" stop-color="#6E8CC8" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="lunalit-ring" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#8FA9DA" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5A73A8" stop-opacity="0.22"/>
+    </linearGradient>
+    <clipPath id="lunalit-bodyclip"><circle cx="20" cy="0" r="100"/></clipPath>
+  </defs>
+    <path d="M121.25 -59.15 A126 126 0 1 1 48.94 -119.83" fill="none" stroke="url(#lunalit-ring)" stroke-width="2.2"
+          stroke-linecap="round"/>
+    <circle cx="20" cy="0" r="100" fill="url(#lunalit-body)"
+            stroke="#5A73A8" stroke-opacity="0.38" stroke-width="1.3"/>
+    <g clip-path="url(#lunalit-bodyclip)" fill="#E8EFFF">
+      <circle cx="60" cy="-52" r="2.2" opacity="0.9"/>
+      <circle cx="88" cy="-20" r="1.6" opacity="0.7"/>
+      <circle cx="46" cy="-8" r="1.3" opacity="0.55"/>
+      <circle cx="72" cy="16" r="2" opacity="0.8"/>
+      <circle cx="30" cy="-40" r="1.2" opacity="0.5"/>
+      <circle cx="58" cy="44" r="1.7" opacity="0.65"/>
+      <circle cx="96" cy="26" r="1.4" opacity="0.6"/>
+      <circle cx="20" cy="8" r="1.1" opacity="0.45"/>
+      <circle cx="78" cy="-66" r="1.5" opacity="0.6"/>
+      <circle cx="40" cy="32" r="1" opacity="0.4"/>
+      <circle cx="-2" cy="-20" r="1.2" opacity="0.5"/>
+      <circle cx="104" cy="-44" r="1.3" opacity="0.5"/>
+      <circle cx="64" cy="72" r="1.2" opacity="0.45"/>
+      <circle cx="14" cy="-74" r="1.4" opacity="0.55"/>
+      <circle cx="34" cy="58" r="1.1" opacity="0.42"/>
+      <path d="M86.0 -43.0 C86.0 -36.3 88.3 -34.0 95.0 -34.0 C88.3 -34.0 86.0 -31.7 86.0 -25.0 C86.0 -31.7 83.7 -34.0 77.0 -34.0 C83.7 -34.0 86.0 -36.3 86.0 -43.0 Z" opacity="0.85"/>
+      <path d="M36.0 -68.0 C36.0 -63.6 37.6 -62.0 42.0 -62.0 C37.6 -62.0 36.0 -60.4 36.0 -56.0 C36.0 -60.4 34.4 -62.0 30.0 -62.0 C34.4 -62.0 36.0 -63.6 36.0 -68.0 Z" opacity="0.6"/>
+    </g>
+    <path d="M13.00 -99.75 A100 100 0 1 1 13.00 99.75 A100 100 0 0 0 13.00 -99.75 Z" fill="url(#lunalit-limb)"/>
+    <path d="M10.00 99.50 A100 100 0 1 1 10.00 -99.50 A100 100 0 0 0 10.00 99.50 Z" fill="url(#lunalit-moon)"/>
+</svg>
