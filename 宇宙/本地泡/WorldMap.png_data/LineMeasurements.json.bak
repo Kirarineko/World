@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": {
+    "sha256": "1de7492e6b10a03d8bc81748b2a2fbde98b7caddeb51eb678ecc6adde28dee8d",
+    "width": 7787,
+    "height": 5047
+  },
+  "measurements": [
+    {
+      "id": "fafbc981-28af-45ca-a1e4-d1be1668cc23",
+      "name": "线测量 5",
+      "createdAt": "2026-10-05T03:07:13.772Z",
+      "updatedAt": "2026-10-05T03:07:13.772Z",
+      "geometry": {
+        "kind": "straight",
+        "nodes": [
+          {
+            "point": {
+              "x": 3141.8155182787095,
+              "y": 2189.300553117371
+            }
+          },
+          {
+            "point": {
+              "x": 2512.6600376525766,
+              "y": 2454.161090642483
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

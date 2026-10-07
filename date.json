@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "6de0a7a7426f4a1796caac0330694e15",
+  "name": "承明历",
+  "calendar": {
+    "months": [
+      {
+        "name": "1月",
+        "days": 31
+      },
+      {
+        "name": "2月",
+        "days": 28
+      },
+      {
+        "name": "3月",
+        "days": 31
+      },
+      {
+        "name": "4月",
+        "days": 30
+      },
+      {
+        "name": "5月",
+        "days": 31
+      },
+      {
+        "name": "6月",
+        "days": 30
+      },
+      {
+        "name": "7月",
+        "days": 31
+      },
+      {
+        "name": "8月",
+        "days": 31
+      },
+      {
+        "name": "9月",
+        "days": 30
+      },
+      {
+        "name": "10月",
+        "days": 31
+      },
+      {
+        "name": "11月",
+        "days": 30
+      },
+      {
+        "name": "12月",
+        "days": 31
+      }
+    ],
+    "weekdays": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六",
+      "日"
+    ],
+    "weekdayOffset": 5,
+    "leap": {
+      "kind": "gregorian",
+      "interval": "4",
+      "anchorYear": "0",
+      "additions": [
+        {
+          "month": 2,
+          "days": 1
+        }
+      ],
+      "patterns": [],
+      "overrides": {}
+    }
+  },
+  "lunar": {
+    "anchor": {
+      "world": {
+        "year": "81",
+        "month": 9,
+        "day": 27
+      },
+      "lunar": {
+        "year": 2027,
+        "month": 8,
+        "day": 15,
+        "leap": false
+      }
+    },
+    "cyclic": true
+  },
+  "events": [
+    {
+      "title": "浅紫生日",
+      "note": "",
+      "color": "#9678B6",
+      "start": {
+        "year": "62",
+        "month": 11,
+        "day": 6
+      },
+      "end": {
+        "year": "62",
+        "month": 11,
+        "day": 6
+      },
+      "allDay": true,
+      "startTime": "00:00",
+      "endTime": "23:59",
+      "id": "64fdf2a6-f6a7-42e8-bda3-cb76466aa3b8",
+      "recurrence": {
+        "frequency": "yearly",
+        "interval": 1,
+        "invalidDate": "skip",
+        "until": null
+      },
+      "exceptions": []
+    },
+    {
+      "title": "朔夜生日",
+      "note": "",
+      "color": "#301934",
+      "start": {
+        "year": "61",
+        "month": 10,
+        "day": 24
+      },
+      "end": {
+        "year": "61",
+        "month": 10,
+        "day": 24
+      },
+      "allDay": true,
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "id": "03878e09-84b2-4f48-8598-360c419ce4ed",
+      "recurrence": {
+        "frequency": "yearly",
+        "interval": 1,
+        "invalidDate": "skip",
+        "until": null
+      },
+      "exceptions": []
+    }
+  ],
+  "holidays": []
+}

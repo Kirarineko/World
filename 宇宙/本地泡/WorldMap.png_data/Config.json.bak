@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": {
+    "sha256": "1de7492e6b10a03d8bc81748b2a2fbde98b7caddeb51eb678ecc6adde28dee8d",
+    "width": 7787,
+    "height": 5047
+  },
+  "metersPerPixel": 3125,
+  "settings": {
+    "showSegmentLengths": true,
+    "brushDiameter": 204
+  }
+}
