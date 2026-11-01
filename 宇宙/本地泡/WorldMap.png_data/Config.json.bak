@@ -8,6 +8,6 @@
   "metersPerPixel": 3125,
   "settings": {
     "showSegmentLengths": true,
-    "brushDiameter": 204
+    "brushDiameter": 145
   }
 }
