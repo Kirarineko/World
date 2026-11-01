@@ -38,8 +38,8 @@
 
 | 模型 | 参数规模 | 架构 | 定位 |
 | - | - | - | - |
-| **Ripple Density 2.0**（密度波） | 704B 总参数，21B 激活（MoE） | Sparse MoE，16专家/层，每Token激活2专家 | 旗舰。复杂推理、长文本生成、硬问题 |
-| **Ripple Kelvin 2.0**（开尔文波） | 182B 总参数，10B 激活（MoE） | Sparse MoE，8专家/层，每Token激活2专家 | 中坚。日常对话、辅助写作、代码生成 |
+| **Ripple Density 2.0**（密度波） | 744B 总参数，40B 激活（MoE） | Sparse MoE，256专家/层，每Token激活8专家 | 旗舰。复杂推理、长文本生成、硬问题 |
+| **Ripple Kelvin 2.0**（开尔文波） | 182B 总参数，10B 激活（MoE） | Sparse MoE，128专家/层，每Token激活8专家 | 中坚。日常对话、辅助写作、代码生成 |
 | **Ripple Gravity 2.0**（重力波） | 27B，Dense | 全激活Dense | 轻量。边缘部署、高速响应、嵌入式场景 |
 
 
