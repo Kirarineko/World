@@ -81,7 +81,7 @@ Mojolib/
 
 ```bash
 # 1. 安装依赖
-pip install -e ./core -e ./chant
+pip install  -e./core -e ./chant
 
 # 2. 启动控魔服务端（以 Ripple 4.0 27B 为例）
 mojod serve \
@@ -90,7 +90,7 @@ mojod serve \
   --device cuda:0
 
 # 3. 启动念咒辅助工具
-mojo-chant start --config ./chant/default.yaml
+mojo-chant start --config ./chant/default.toml
 ```
 
 如果有条件接入被动雷达做电磁波间接观测反馈，可以参考 `radar-driver/` 下的说明加载 `em-beacon` 权重。
